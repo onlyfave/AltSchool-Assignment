@@ -1,0 +1,98 @@
+.first-half {
+  display: none;
+}
+form {
+  font-family: AlmarenaDisplayRegular, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: #e2dede;
+}
+h1 {
+  text-align: center;
+}
+input {
+  padding: 20px;
+  width: 325px;
+  margin-top: 7px;
+  border: 1px;
+  background-color: #f7f6f6;
+}
+select {
+  padding: 20px;
+  border: 1px;
+  background-color: #f7f6f6;
+  width: 100%;
+}
+button {
+  padding: 14px;
+  color: white;
+  background-color: rgb(133, 133, 228);
+  width: 100%;
+  border-radius: 8px;
+  border-color: white;
+}
+
+.row {
+  margin-top: 15px;
+}
+@media (min-width: 860px) {
+  .first-half {
+    display: none;
+  }
+}
+
+@media (min-width: 431px) {
+  .first-half {
+    display: block;
+    background: #fffcf8;
+    padding-top: 67px;
+    width: 45%;
+  }
+  h1 {
+    display: none;
+  }
+  .container {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  section {
+    background-color: white;
+    margin: auto;
+  }
+  .style-container {
+    width: 100%;
+    display: flex;
+  }
+
+  h1 {
+    font-family: AlmarenaDisplayBold, sans-serif;
+    color: #000812;
+    font-size: 3.1875rem;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: -0.51px;
+  }
+  footer {
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .details p {
+    color: black;
+  }
+
+  form {
+    padding: 7rem;
+    width: 55%;
+    height: 100vh;
+  }
+  .sign-up {
+    width: 55%;
+    height: 100vh;
+  }
+}

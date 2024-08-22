@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(227, 190, 241);
+}
+h1{color: rgb(34, 6, 59);}
+.header{
+   }
+.table {
+  text-align: center;
+  width: 100%;
+}
+.impact{padding: 20px;}
+th {
+  border: 2px solid;
+  padding: 10px;
+}
+td {
+  border: 1px solid;
+}
+
+
