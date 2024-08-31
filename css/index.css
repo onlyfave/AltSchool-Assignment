@@ -1,66 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Matemasie&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sevillana&display=swap");
+
 body {
-  background-color: plum;
-  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  color: #182C61;
 }
-img {
-  display: block;
-  margin: auto;
+
+header {
+  background: #fc427b;
+  padding: 10px 20px;
+  box-shadow: 3px 4px 11px -3px rgba(54,45,48,0.75);
+-webkit-box-shadow: 3px 4px 11px -3px rgba(54,45,48,0.75);
+-moz-box-shadow: 3px 4px 11px -3px rgba(54,45,48,0.75);
+}
+
+.logo h1 {
+  text-align: center;
+  font-family: "Matemasie", sans-serif;
+  color: #fff;
+  margin: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #182C61;
+  
+}
+
+nav {
+  margin-top: 10px;
+  border-radius: 50px;
+  background: #ecf0f1;
+  padding: 1px;
+  box-shadow: 3px 4px 11px -3px rgba(54,45,48,0.75);
+-webkit-box-shadow: 3px 4px 11px -3px rgba(54,45,48,0.75);
+-moz-box-shadow: 3px 4px 11px -3px rgba(54,45,48,0.75);
+  
+}
+
+.button {
+  background: #fc427b;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+a.active {
+  color: #fc427b;;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 ul {
   list-style-type: none;
-  display:flex;
-  justify-content: space-around;
- 
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px;
 }
-button {
-  color: black;
-  padding: 15px;
-  background-color: plum;
-  border-radius: 8px;
-  border-color: black;
-  box-shadow: 3px 3px 5px;
-}
-button:hover {
-  cursor: pointer;
-  background-color: rgb(241, 197, 235);
-}
-a {
-  text-decoration: none;
-  color: #000;
-  font-size: larger;
-}
+
 .content {
-  box-shadow: 5px 5px 10px;
-  background-color: rgba(185, 184, 184, 0.199);
-  padding: 10px;
+  box-shadow: 3px 4px 11px -3px rgba(252,66,123,0.75);
+-webkit-box-shadow: 3px 4px 11px -3px rgba(252,66,123,0.75);
+-moz-box-shadow: 3px 4px 11px -3px rgba(252,66,123,0.75);
+  padding: 5px 20px;
   margin: 12px;
   margin-top: 25px;
+  border-radius: 3px;
 }
-p,
-li {
-  font-size: 18px;
-  color: black;
-}
-/*
-
-a {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-}
-h3 {
-  font-size: 30px;
-  display: block;
-
-  margin-left: 700px;
-}
-
-
-.biography>h1{font-size: 30px;
-text-align: center;}
-
-
-
-
-*/

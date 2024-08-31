@@ -1,5 +1,13 @@
+body {
+  position: relative;
+}
+
 .first-half {
   display: none;
+}
+
+.second-half {
+  padding: 15px;
 }
 form {
   font-family: AlmarenaDisplayRegular, sans-serif;
@@ -7,75 +15,93 @@ form {
 a {
   text-decoration: none;
 }
-p {
-  color: #242323;
+
+.form-group {
+  color: #797979;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
 h1 {
   text-align: center;
 }
-input {
-  padding: 20px;
-  width: 325px;
-  margin-top: 7px;
-  border: 1px;
-  background-color: #f7f6f6;
-}
+
+input,
 select {
-  padding: 20px;
-  border: 1px;
+  padding: 20px 10px;
   background-color: #f7f6f6;
-  width: 100%;
+  border: none;
+  border-radius: 3px;
 }
+input:hover {
+  border: 2px solid;
+  transition: ease-in-out;
+}
+
 button {
-  padding: 14px;
+  padding: 20px;
+  margin: 0 auto;
   color: white;
-  background-color: rgb(133, 133, 228);
-  width: 100%;
+  background-color: rgb(106, 111, 245);
   border-radius: 8px;
-  border-color: white;
+  border: none;
+  display: block;
+  width: 100%;
+  font-size: 1em;
+}
+.terms {
+  color: black;
+  font-size: 1.2em;
 }
 
-.row {
-  margin-top: 15px;
+.go-home {
+  margin: 20px;
+  display: block;
+  text-align: center;
 }
-@media (min-width: 860px) {
-  .first-half {
-    display: none;
+
+
+@media (min-width: 1000px) {
+  .container {
+    display: flex;
   }
-}
-
-@media (min-width: 431px) {
   .first-half {
     display: block;
     background: #fffcf8;
     padding-top: 67px;
-    width: 45%;
+    width: 50%;
   }
+  .form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .hear-about {
+    display: block;
+    width: 100%;
+  }
+  .passwords {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
   h1 {
     display: none;
   }
-  .container {
-    box-sizing: border-box;
-    max-width: 100%;
+  .sign-in {
+    text-align: right;
   }
   section {
     background-color: white;
     margin: auto;
   }
-  .style-container {
-    width: 100%;
-    display: flex;
-  }
 
-  h1 {
-    font-family: AlmarenaDisplayBold, sans-serif;
-    color: #000812;
-    font-size: 3.1875rem;
-    line-height: 72px;
-    text-align: center;
-    margin-bottom: 25px;
-    letter-spacing: -0.51px;
-  }
   footer {
     margin-bottom: 5rem;
     display: flex;
@@ -95,4 +121,8 @@ button {
     width: 55%;
     height: 100vh;
   }
+  .details {
+    text-align: center;
+  }
 }
+
