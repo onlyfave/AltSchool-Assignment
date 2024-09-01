@@ -2,8 +2,7 @@
   box-sizing: border-box;
   overflow-x: hidden;
 }
-body {
-  background-color: rgb(235, 160, 191);
+body {background-color:white;
 }
 h1 {
   text-align: center;
@@ -16,22 +15,23 @@ img {
   width: 300;
   height: 300;
 }
-.pic {
-  border-radius: 10px;
-  border: 1 px solid white;
-  margin: 5px 40px;
-}
+
 video {
   height: 25rem;
   width: 24rem;
+  display: block;
+}
+audio {
+  display: block;
+  margin: 20px auto;
 }
 .round {
   border-radius: 50%;
   margin: 5px 40px;
+  box-shadow: 3px 4px 11px -3px rgba(54,45,48,0.75);
+-webkit-box-shadow: 3px 4px 11px -3px rgba(54,45,48,0.75);
+-moz-box-shadow: 3px 4px 11px -3px rgba(54,45,48,0.75);
 }
 .fave {
   display: block;
 }
-
-
-
